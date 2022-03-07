@@ -32,6 +32,14 @@ header h1 {
     text-shadow: 0 0 10px rgba(0,0,0, 0.25);
 }
 
+header h1 a:hover {
+    color: white;
+    text-shadow: rgba(0,0,0, 0.75);
+    background-color: #6b03fc;
+    border-radius: 15px;
+    padding: 5px;
+}
+
 header h1 a {
     text-decoration: none;
     color: #6b03fc;
@@ -187,6 +195,10 @@ section {
 .flex-row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.contact-me h2 {
+    font-size: 45px;
 }
 
 .contact-info, .contact-me {
