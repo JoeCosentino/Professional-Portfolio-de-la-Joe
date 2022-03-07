@@ -24,7 +24,7 @@ This is a README file for the Professional Portfolio of Joe Cosentino.
 
 ## Screenshot of Assignment
 
-* Placeholder
+![image](./assets/images/Portfolio-screenshot.PNG)
 
 ## Licensing
 
