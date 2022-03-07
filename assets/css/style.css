@@ -9,7 +9,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* once closer to finishing, re-look at background choices */
 header {
     padding: 20px 35px;
     display: flex;
@@ -57,6 +56,13 @@ header nav ul li a {
     color: #6b03fc;
     text-decoration: none;
     text-shadow: 0 0 10px rgba(0,0,0, 0.25);
+}
+
+header nav ul li a:hover {
+    color: white;
+    text-shadow: rgba(0,0,0, 0.75);
+    background-color: #6b03fc;
+    border-radius: 15px;
 }
 
 footer {
@@ -108,7 +114,7 @@ section {
 .about-me p {
     padding: 0 15px;
     line-height: 1.7;
-    color: gold;
+    color: black;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
@@ -136,12 +142,17 @@ section {
 .own-row, .shared-rows {
     position: relative;
     text-align: center;
-    color: red;
+    color: black;
 }
 
 .own-row img {
     width: 100%;
     margin: 0 auto 0 50px;
+    border-radius: 15px;
+}
+
+.own-row img:hover {
+    opacity: 0.8;
 }
 
 .image-text {
@@ -166,6 +177,11 @@ section {
     width: 420px;
     height: 360px;
     padding: 2px;
+    border-radius: 15px;
+}
+
+.shared-rows img:hover {
+    opacity: 0.8;
 }
 
 .flex-row {
