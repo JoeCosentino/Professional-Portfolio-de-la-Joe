@@ -108,6 +108,8 @@ section {
     width: 180px;
     height: 220px;
     float: left;
+    border-radius: 15%;
+    box-shadow: 2px 2px 2px black;
 }
 
 .hero h3 {
