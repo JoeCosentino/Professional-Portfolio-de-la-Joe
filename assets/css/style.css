@@ -7,6 +7,7 @@
 body {
     color: #6b03fc;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 
 header {
@@ -97,11 +98,12 @@ section {
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     background-image: fixed;
     background-position: 80%;
     padding: 100px;
+    align-items: center;
 }
 
 .hero img {
@@ -109,7 +111,7 @@ section {
     height: 220px;
     float: left;
     border-radius: 15%;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 1px 1px 1px #777;
 }
 
 .hero h3 {
@@ -125,69 +127,38 @@ section {
     padding: 0 15px;
     line-height: 1.7;
     color: black;
-    width: 80%;
+    width: 70%;
     font-size: 20px;
     margin: 0 auto;
     text-align: left;
-    flex: 2 70%;
 }
 
-.about-me h2  {
+.work h2, .contact-me h2, .about-me h2  {
     font-size: 48px;
     color: #6b03fc;
     border-right: 3px solid #03a9fc;
     padding-bottom: 10px;
     text-align: center;
-    margin: 0 auto 35px auto;
     width: 30%;
     align-items: center;
 }
 
 .work-items {
+    width: 68%;
     display: flex;
-    flex-wrap: wrap;    
-    flex: 5 70%
-}
-
-.own-row, .shared-rows {
-    position: relative;
-    text-align: center;
-    color: black;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .own-row img {
-    width: 100%;
-    margin: 0 auto 0 50px;
-    border-radius: 15px;
+    width: 750px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 1.5px #777;
 }
 
 .own-row img:hover {
     opacity: 0.8;
-}
-
-.image-text {
-    position: absolute;
-    bottom: 18px;
-    left: 56px;
-    background-color: aqua;
-    padding: 4px;
-}
-
-.work-title, .contact-me h2 {
-    width: 30%;
-    text-align: center;
-    font-size: 35px;
-    color: #6b03fc;
-    border-right: 3px solid #03a9fc;
-    padding-bottom: 10px;
-    margin: 0 auto 35px auto;
-}
-
-.shared-rows img {
-    width: 420px;
-    height: 360px;
-    padding: 2px;
-    border-radius: 15px;
 }
 
 .shared-rows img:hover {
@@ -195,12 +166,29 @@ section {
 }
 
 .flex-row {
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.contact-me h2 {
-    font-size: 45px;
+.flex-row img {
+    width: 350px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #777;
+}
+
+.flex-row h4, .own-row h4 {
+    position: relative;
+    width: 110px;
+    justify-self: center;
+    border-radius: 10px;
+    bottom: 45px;
+    left: 16px;
+    background-color: aqua;
+    padding: 4px;
 }
 
 .contact-info, .contact-me {
